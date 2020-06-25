@@ -21,10 +21,10 @@ const ProjectsItem = ({ cardImgSrc, cardTitle, cardDescription, cardLinkTitle, c
         <div className={`projectItem col-6 ${offset} p-0`} >
             <div className={`row m-0 ${flexRow} shadow-lg bg-${colorCard}`} style={style}>
                 <img src={cardImgSrc} className={`card-img-top`} alt="..." style={style} />
-                <div className={`card-body-absolute d-flex flex-column justify-content-around bg-${colorCard}`} style={style}>
+                <div className={`card-body-absolute d-flex flex-column justify-content-around align-items-center bg-${colorCard}`} style={style}>
                     <h4 className="card-title text-center">{cardTitle}</h4>
                     <p className="card-text d-none d-sm-block text-center">{cardDescription}</p>
-                    <a href={cardLink} className={`btn btn-${colorCard}`}>{cardLinkTitle}</a>
+                    <a href={cardLink} target="_blank" className={`btn btn-${colorCard}`}>{cardLinkTitle}</a>
                 </div>
             </div>
         </div>

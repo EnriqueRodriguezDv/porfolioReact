@@ -19,7 +19,7 @@
                 "cardDescription": "In the stone",
                 "cardLink": "https://enriquerodriguezdv.github.io/piedra.papel.tijera/index.html",
                 "cardLinkTiTle": "click here to stone",
-                "colorCard": "warning",
+                "colorCard": "yellow",
                 "flexRow": "flex-row-reverse",
                 "offset": "offset-6"
             },
@@ -30,7 +30,7 @@
                 "cardDescription": "In the dyd",
                 "cardLink": "https://enriquerodriguezdv.github.io/Hoja-de-personaje-DyD/index.html",
                 "cardLinkTiTle": "click here to dyd",
-                "colorCard": "secondary",
+                "colorCard": "red",
                 "flexRow": "flex-row",
                 "offset": ""
             },
@@ -41,7 +41,7 @@
                 "cardDescription": "In the Bank",
                 "cardLink": "",
                 "cardLinkTiTle": "click here to bank",
-                "colorCard": "success",
+                "colorCard": "green",
                 "flexRow": "flex-row-reverse",
                 "offset": "offset-6"
             }

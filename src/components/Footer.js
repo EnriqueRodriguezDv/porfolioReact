@@ -34,9 +34,9 @@ const Footer = () => {
             </nav>
             <div className="row w-100 m-auto">
                 <div className="col-12 col-md-6 d-flex justify-content-center p-0 mt-4 mb-5">
-                    <a href="https://github.com/EnriqueRodriguezDv"><img className="mr-4" src={github}></img></a>
-                    <a href="https://www.facebook.com/Enrique-Rodriguez-Desarrollador-101686708213107"><img className="mr-4" src={facebook}></img></a>
-                    <a href="https://www.linkedin.com/in/desarrolladorenriquerodriguez/"><img src={linkedIn}></img></a>
+                    <a href="https://github.com/EnriqueRodriguezDv" target="_blank"><img className="mr-4" src={github}></img></a>
+                    <a href="https://www.facebook.com/Enrique-Rodriguez-Desarrollador-101686708213107" target="_blank"><img className="mr-4" src={facebook}></img></a>
+                    <a href="https://www.linkedin.com/in/desarrolladorenriquerodriguez/" target="_blank"><img src={linkedIn}></img></a>
                 </div>
                 <div className="col-12 col-md-6 d-flex align-items-center justify-content-center p-0">
                     <div id="email" className="d-flex align-items-center justify-content-center" onClick={() => { window.open('mailto:juanenriquerodriguezgarcia87@gmail.com') }}>

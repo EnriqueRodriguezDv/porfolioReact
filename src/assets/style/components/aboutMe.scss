@@ -15,6 +15,12 @@
 
 #firstCarousel {
   transition: 0.5s;
+  a {
+    filter: invert(1);
+  }
+  li {
+    filter: invert(1);
+  }
 }
 
 #firstCarousel:hover {
@@ -28,6 +34,12 @@
 
 #secondCarousel {
   transition: 0.5s;
+  a {
+    filter: invert(1);
+  }
+  li {
+    filter: invert(1);
+  }
 }
 
 #secondCarousel:hover {

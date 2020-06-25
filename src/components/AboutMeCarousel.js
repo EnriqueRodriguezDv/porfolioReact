@@ -36,6 +36,7 @@ const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
         <div id={dataTargetId} className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
                 {api.initialState.courses.map(item => {
+
                     return (
                         <li key={item.key} data-target={dataTarget} data-slide-to={item.key} className={item.active}></li>
                     )
@@ -43,8 +44,7 @@ const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
             </ol>
             <div className="carousel-inner">
                 {api.initialState.courses.map(item => {
-                    let img = "hola";
-
+                    let img = null;
                     switch (item.img) {
                         case "asynchronism":
                             img = asynchronism
@@ -126,8 +126,22 @@ const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
                             break;
                     }
 
+
+                    // temporal function, remove went get the diploma and in active, item.active
+                    let courseActive = null;
+                    const active = () => {
+                        if (dataTarget === "#firstCarousel" && item.key === 0) {
+                            courseActive = "active"
+                        }
+                        if (dataTarget === "#secondCarousel" && item.key === 11) {
+                            courseActive = "active"
+                        }
+                    }
+                    active()
+                    // --------------------------------------------------
+
                     return (
-                        <AboutMeCarouselItem key={item.key} dip={img} active={item.active} data={item.img} />
+                        <AboutMeCarouselItem key={item.key} dip={img} active={courseActive} data={item.img} />
                     )
                 })}
 

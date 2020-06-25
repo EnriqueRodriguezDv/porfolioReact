@@ -5,6 +5,48 @@
   padding: 0;
 }
 
+// background color
 .bg-blue {
   background-color: $blue;
+}
+
+.bg-yellow {
+  background-color: $yellow;
+}
+
+.bg-red {
+  background-color: $red;
+}
+
+.bg-green {
+  background-color: $green;
+}
+
+// button color
+.btn-blue {
+  background-color: $blue;
+}
+.btn-blue:hover {
+  background-color: #97cae9;
+}
+
+.btn-yellow {
+  background-color: $yellow;
+}
+.btn-yellow:hover {
+  background-color: #e2be59;
+}
+
+.btn-red {
+  background-color: $red;
+}
+.btn-red:hover {
+  background-color: #e98167;
+}
+
+.btn-green {
+  background-color: $green;
+}
+.btn-green:hover {
+  background-color: #88df76;
 }

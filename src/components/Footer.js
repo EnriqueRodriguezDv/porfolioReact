@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="row" id="navbarFooter">
                     <ul className="col-12 navbar-nav align-items-center">
                         <li className="nav-item">
-                            <a className="nav-link" href="#principal">Principal<span className="sr-only">(current)</span></a>
+                            <a className="nav-link" href="#principal">Principal</a>
                         </li>
                         <li><p className="stick">|</p></li>
                         <li className="nav-item">
@@ -47,9 +47,9 @@ const Footer = () => {
             </div>
             <div className="row w-100 m-auto">
                 <div className="col-12 text-center mt-4 mb-1">
-                    <small className="">
+                    <small>
                         Copyright 2020 by Juan Enrique Rodríguez García
-                       </small>
+                    </small>
                 </div>
             </div>
         </footer>

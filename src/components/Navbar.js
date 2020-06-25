@@ -6,9 +6,7 @@ const Navbar = () => {
     return (
         <header>
             <nav className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-                <a className="navbar-brand" href="#">
-                    <img src={logoEnrique}></img>
-                </a>
+                <img src={logoEnrique}></img>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -16,7 +14,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarHeader">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="#principal">Principal<span className="sr-only">(current)</span></a>
+                            <a className="nav-link" href="#principal">Principal</a>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link" href="#project">Projects</a>

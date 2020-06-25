@@ -16,7 +16,7 @@ const AboutMeSkillListWhitModal = ({ title, dataTarget, description }) => {
                         <div className="modal-body">
                             <p> {description} </p>
                             <hr />
-                            <p className="mb-1" >courses</p>
+                            <p className="mb-1" >Courses</p>
                             <div className="badge badge-primary mr-3" role="alert">course 1</div>
                             <div className="badge badge-secondary" role="alert">course 2</div>
                         </div>

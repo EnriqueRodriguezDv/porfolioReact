@@ -39,7 +39,8 @@ const AboutMe = () => {
                                     <AboutMeSkillListWhitModal key={item.key} title={item.skill} dataTarget={item.dataTarget} description={item.description} />
                                 )
                             })}
-                        </ul></div>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>

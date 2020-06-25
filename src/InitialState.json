@@ -1,0 +1,254 @@
+{
+    "initialState": {
+        "project": [
+            {
+                "key": 0,
+                "cardImgSrc": "space",
+                "cardTitle": "Space",
+                "cardDescription": "In the space",
+                "cardLink": "https://enriquerodriguezdv.github.io/spaceship/",
+                "cardLinkTiTle": "click here to space",
+                "colorCard": "blue",
+                "flexRow": "flex-row",
+                "offset": ""
+            },
+            {
+                "key": 1,
+                "cardImgSrc": "stone",
+                "cardTitle": "Stone",
+                "cardDescription": "In the stone",
+                "cardLink": "https://enriquerodriguezdv.github.io/piedra.papel.tijera/index.html",
+                "cardLinkTiTle": "click here to stone",
+                "colorCard": "warning",
+                "flexRow": "flex-row-reverse",
+                "offset": "offset-6"
+            },
+            {
+                "key": 2,
+                "cardImgSrc": "dyd",
+                "cardTitle": "Dyd",
+                "cardDescription": "In the dyd",
+                "cardLink": "https://enriquerodriguezdv.github.io/Hoja-de-personaje-DyD/index.html",
+                "cardLinkTiTle": "click here to dyd",
+                "colorCard": "secondary",
+                "flexRow": "flex-row",
+                "offset": ""
+            },
+            {
+                "key": 3,
+                "cardImgSrc": "bankLions",
+                "cardTitle": "Bank Lions",
+                "cardDescription": "In the Bank",
+                "cardLink": "",
+                "cardLinkTiTle": "click here to bank",
+                "colorCard": "success",
+                "flexRow": "flex-row-reverse",
+                "offset": "offset-6"
+            }
+        ],
+        "skillList": [
+            {
+                "key": 0,
+                "skill": "Html",
+                "dataTarget": "skillHtml"
+            },
+            {
+                "key": 1,
+                "skill": "Css",
+                "dataTarget": "skillCss"
+            },
+            {
+                "key": 2,
+                "skill": "Sass",
+                "dataTarget": "skillSass"
+            },
+            {
+                "key": 3,
+                "skill": "Boostrap",
+                "dataTarget": "skillBoostrap"
+            },
+            {
+                "key": 4,
+                "skill": "JavaScript",
+                "dataTarget": "skillJavaScript"
+            },
+            {
+                "key": 5,
+                "skill": "TypeScript",
+                "dataTarget": "skillTypeScript"
+            },
+            {
+                "key": 6,
+                "skill": "React",
+                "dataTarget": "skillReact"
+            },
+            {
+                "key": 7,
+                "skill": "NodeJS",
+                "dataTarget": "skillNodeJS"
+            },
+            {
+                "key": 14,
+                "skill": "Johnny-Five",
+                "dataTarget": "skillJohnnyFive"
+            },
+            {
+                "key": 8,
+                "skill": "Electron",
+                "dataTarget": "skillElectron"
+            },
+            {
+                "key": 9,
+                "skill": "Git",
+                "dataTarget": "skillGit"
+            },
+            {
+                "key": 10,
+                "skill": "SQL & MySQL",
+                "dataTarget": "skillSQL"
+            },
+            {
+                "key": 11,
+                "skill": "Communication",
+                "dataTarget": "skillCommunication"
+            },
+            {
+                "key": 12,
+                "skill": "Good Practices",
+                "dataTarget": "skillGoodPractice"
+            },
+            {
+                "key": 13,
+                "skill": "Languages",
+                "dataTarget": "skillLanguages"
+            }
+        ],
+        "courses": [
+            {
+                "key": 0,
+                "img": "asynchronism",
+                "active": "active"
+            },
+            {
+                "key": 1,
+                "img": "basicJS",
+                "active": ""
+            },
+            {
+                "key": 2,
+                "img": "basicProgramming",
+                "active": ""
+            },
+            {
+                "key": 3,
+                "img": "developingWebOnline",
+                "active": ""
+            },
+            {
+                "key": 4,
+                "img": "ecmaScript",
+                "active": ""
+            },
+            {
+                "key": 5,
+                "img": "engineer",
+                "active": ""
+            },
+            {
+                "key": 6,
+                "img": "frontendDeveloper",
+                "active": ""
+            },
+            {
+                "key": 7,
+                "img": "fundamentalJS",
+                "active": ""
+            },
+            {
+                "key": 8,
+                "img": "fundamentalsBd",
+                "active": ""
+            },
+            {
+                "key": 9,
+                "img": "git",
+                "active": ""
+            },
+            {
+                "key": 10,
+                "img": "introductionWebDevelopment",
+                "active": ""
+            },
+            {
+                "key": 11,
+                "img": "javascriptProfessional",
+                "active": ""
+            },
+            {
+                "key": 12,
+                "img": "oop",
+                "active": ""
+            },
+            {
+                "key": 13,
+                "img": "preWork",
+                "active": ""
+            },
+            {
+                "key": 14,
+                "img": "react",
+                "active": ""
+            },
+            {
+                "key": 15,
+                "img": "reactPractice",
+                "active": ""
+            },
+            {
+                "key": 16,
+                "img": "responsiveDesign",
+                "active": ""
+            },
+            {
+                "key": 17,
+                "img": "sqlMysql",
+                "active": ""
+            },
+            {
+                "key": 18,
+                "img": "terminal",
+                "active": ""
+            },
+            {
+                "key": 19,
+                "img": "typescript",
+                "active": ""
+            },
+            {
+                "key": 20,
+                "img": "apiRest",
+                "active": ""
+            },
+            {
+                "key": 21,
+                "img": "boostrap",
+                "active": ""
+            },
+            {
+                "key": 22,
+                "img": "fundamentalNodeJS",
+                "active": ""
+            },
+            {
+                "key": 23,
+                "img": "scope",
+                "active": ""
+            },
+            {
+                "key": 24,
+                "img": "V8",
+                "active": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+@import "./vars.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-blue {
+  background-color: $blue;
+}

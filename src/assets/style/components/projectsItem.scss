@@ -1,0 +1,25 @@
+.projectItem {
+  position: relative;
+  color: white;
+  border-radius: 50px;
+
+  img {
+    object-fit: contain;
+    max-height: 45vh;
+  }
+
+  .card-body-absolute {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s;
+    padding: 5px;
+    z-index: 10;
+  }
+}
+
+.card-body-absolute:hover {
+  width: 90vw;
+  opacity: 0.9;
+}

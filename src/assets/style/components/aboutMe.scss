@@ -1,0 +1,52 @@
+@import "../vars.scss";
+
+#aboutMe {
+  background-color: $blue;
+}
+
+#listSkill {
+  background-color: $blue;
+  cursor: pointer;
+}
+
+#listSkill:hover {
+  filter: contrast(120%);
+}
+
+#firstCarousel {
+  transition: 0.5s;
+}
+
+#firstCarousel:hover {
+  position: absolute;
+  width: 200%;
+  top: -100px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+
+#secondCarousel {
+  transition: 0.5s;
+}
+
+#secondCarousel:hover {
+  position: absolute;
+  width: 200%;
+  top: -100px;
+  right: 0px;
+  z-index: 100;
+}
+
+@media screen and (min-width: 540px) {
+  #firstCarousel:hover {
+    position: relative;
+    width: 100%;
+    top: 0;
+  }
+  #secondCarousel:hover {
+    position: relative;
+    width: 100%;
+    top: 0;
+  }
+}

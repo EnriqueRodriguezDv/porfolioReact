@@ -2,7 +2,7 @@
 
 .projectItem {
   position: relative;
-  color: white;
+  color: #f1f2f3;
   border-radius: 50px;
 
   img {
@@ -19,9 +19,23 @@
     padding: 5px;
     z-index: 10;
 
+    h4 {
+      font-size: 0.5rem;
+      transition: 1s;
+      opacity: 0;
+    }
+
+    p {
+      font-size: 0.5rem;
+      transition: 1s;
+    }
+
     a {
-      width: 80%;
+      width: 0%;
       border: none;
+      font-size: 0;
+      transition: 1s;
+      color: #f1f2f3;
     }
   }
 }
@@ -29,4 +43,18 @@
 .card-body-absolute:hover {
   width: 90vw;
   opacity: 0.95;
+
+  h4 {
+    font-size: 1.5rem;
+    opacity: 1;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  a {
+    width: 80%;
+    font-size: 1rem;
+  }
 }

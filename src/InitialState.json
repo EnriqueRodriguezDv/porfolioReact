@@ -4,10 +4,10 @@
             {
                 "key": 0,
                 "cardImgSrc": "space",
-                "cardTitle": "Space",
-                "cardDescription": "In the space",
+                "cardTitle": "Space Vs (only pc)",
+                "cardDescription": "It´s a little game for two players when you can´t destroy a your friend or... enemy",
                 "cardLink": "https://enriquerodriguezdv.github.io/spaceship/",
-                "cardLinkTiTle": "click here to space",
+                "cardLinkTiTle": "Click to the Space War",
                 "colorCard": "blue",
                 "flexRow": "flex-row",
                 "offset": ""
@@ -15,10 +15,10 @@
             {
                 "key": 1,
                 "cardImgSrc": "stone",
-                "cardTitle": "Stone",
-                "cardDescription": "In the stone",
+                "cardTitle": "Rock, Paper and Scissor",
+                "cardDescription": "The typical game, soon, rock, paper, scissor, lizard and spock 🖖",
                 "cardLink": "https://enriquerodriguezdv.github.io/piedra.papel.tijera/index.html",
-                "cardLinkTiTle": "click here to stone",
+                "cardLinkTiTle": "Click to play and good luck !!",
                 "colorCard": "yellow",
                 "flexRow": "flex-row-reverse",
                 "offset": "offset-6"
@@ -26,10 +26,10 @@
             {
                 "key": 2,
                 "cardImgSrc": "dyd",
-                "cardTitle": "Dyd",
-                "cardDescription": "In the dyd",
+                "cardTitle": "Character Sheet Dungeon & Dragons",
+                "cardDescription": "A automatic creator of sheet of dungeon and  dragon, only created with pure Css, no finished",
                 "cardLink": "https://enriquerodriguezdv.github.io/Hoja-de-personaje-DyD/index.html",
-                "cardLinkTiTle": "click here to dyd",
+                "cardLinkTiTle": "click to create",
                 "colorCard": "red",
                 "flexRow": "flex-row",
                 "offset": ""
@@ -40,7 +40,7 @@
                 "cardTitle": "Bank Lions",
                 "cardDescription": "In the Bank",
                 "cardLink": "",
-                "cardLinkTiTle": "click here to bank",
+                "cardLinkTiTle": "click to bank",
                 "colorCard": "green",
                 "flexRow": "flex-row-reverse",
                 "offset": "offset-6"
@@ -50,12 +50,14 @@
             {
                 "key": 0,
                 "skill": "Html",
-                "dataTarget": "skillHtml"
+                "dataTarget": "skillHtml",
+                "description": "The Based of the web, i want a code clean and readable, no empty div"
             },
             {
                 "key": 1,
                 "skill": "Css",
-                "dataTarget": "skillCss"
+                "dataTarget": "skillCss",
+                "description": "The style is very import, without him, it,s impossible a good web"
             },
             {
                 "key": 2,

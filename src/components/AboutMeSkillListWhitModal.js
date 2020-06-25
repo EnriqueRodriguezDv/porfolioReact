@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AboutMeSkillListWhitModal = ({ title, dataTarget }) => {
+const AboutMeSkillListWhitModal = ({ title, dataTarget, description }) => {
     return (
         <React.Fragment>
             <li id="listSkill" className="list-group-item list-group-item-action list-group-item-primary" data-toggle="modal" data-target={`#${dataTarget}`}>{title}</li>
@@ -14,7 +14,7 @@ const AboutMeSkillListWhitModal = ({ title, dataTarget }) => {
                             </button>
                         </div>
                         <div className="modal-body">
-                            <p> description skill </p>
+                            <p> {description} </p>
                             <hr />
                             <p className="mb-1" >courses</p>
                             <div className="badge badge-primary mr-3" role="alert">course 1</div>

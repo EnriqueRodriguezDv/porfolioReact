@@ -36,7 +36,7 @@ const AboutMe = () => {
                         <ul className="list-group list-group-flush text-center mt-2 mb-2">
                             {api.initialState.skillList.map(item => {
                                 return (
-                                    <AboutMeSkillListWhitModal key={item.key} title={item.skill} dataTarget={item.dataTarget} />
+                                    <AboutMeSkillListWhitModal key={item.key} title={item.skill} dataTarget={item.dataTarget} description={item.description} />
                                 )
                             })}
                         </ul></div>

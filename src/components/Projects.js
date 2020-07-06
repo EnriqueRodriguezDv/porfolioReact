@@ -14,7 +14,7 @@ const Projects = () => {
     return (
         <section id="project" className="project">
             <div className="container-fluid p-0 pt-5 pb-5">
-                <h2 className="text-center mb-5">Projects</h2>
+                <h2 className="principalTitle text-center mb-5">Projects</h2>
                 <div className="row flex-column-reverse m-0">
                     {api.initialState.project.map(item => {
                         let img = null;

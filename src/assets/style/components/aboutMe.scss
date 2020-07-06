@@ -14,7 +14,7 @@
 }
 
 #firstCarousel {
-  transition: 0.8s;
+  transition: 0.3s;
   width: 100%;
   a {
     filter: invert(1);
@@ -26,15 +26,16 @@
 
 #firstCarousel:hover {
   position: absolute;
-  width: 200%;
-  top: -100px;
-  left: 0px;
-  right: 0px;
-  z-index: 100;
+  transform: scale(2);
+  left: 50%;
+  z-index: 50;
+  a {
+    filter: invert(0);
+  }
 }
 
 #secondCarousel {
-  transition: 0.8s;
+  transition: 0.3s;
   width: 100%;
   a {
     filter: invert(1);
@@ -46,21 +47,31 @@
 
 #secondCarousel:hover {
   position: absolute;
-  width: 200%;
-  top: -100px;
-  right: 0px;
+  transform: scale(2);
+  right: 50%;
   z-index: 100;
+  a {
+    filter: invert(0);
+  }
 }
 
 @media screen and (min-width: 540px) {
   #firstCarousel:hover {
     position: relative;
-    width: 100%;
+    transform: scale(1);
     top: 0;
+    left: 0;
+    a {
+      filter: invert(1);
+    }
   }
   #secondCarousel:hover {
     position: relative;
-    width: 100%;
+    transform: scale(1);
     top: 0;
+    right: 0;
+    a {
+      filter: invert(1);
+    }
   }
 }

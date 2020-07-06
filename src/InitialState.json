@@ -29,7 +29,7 @@
                 "cardTitle": "Character Sheet Dungeon & Dragons",
                 "cardDescription": "A automatic creator of sheet of dungeon and  dragon, only created with pure Css, no finished",
                 "cardLink": "https://enriquerodriguezdv.github.io/Hoja-de-personaje-DyD/index.html",
-                "cardLinkTiTle": "click to create",
+                "cardLinkTiTle": "Click to create",
                 "colorCard": "red",
                 "flexRow": "flex-row",
                 "offset": ""
@@ -51,7 +51,7 @@
                 "key": 0,
                 "skill": "Html",
                 "dataTarget": "skillHtml",
-                "description": "The Based of the web, i want a code clean and readable, no empty div"
+                "description": "The base of all project on the Web (and almost outside), the importance of knowing the tags to improve work and avoid the sea of div is fundamental and more in react, my favorite framework"
             },
             {
                 "key": 1,
@@ -66,8 +66,8 @@
             },
             {
                 "key": 3,
-                "skill": "Boostrap",
-                "dataTarget": "skillBoostrap"
+                "skill": "Bootstrap",
+                "dataTarget": "skillBootstrap"
             },
             {
                 "key": 4,
@@ -90,14 +90,24 @@
                 "dataTarget": "skillNodeJS"
             },
             {
+                "key": 8,
+                "skill": "Electron",
+                "dataTarget": "skillElectron"
+            },
+            {
                 "key": 14,
                 "skill": "Johnny-Five",
                 "dataTarget": "skillJohnnyFive"
             },
             {
-                "key": 8,
-                "skill": "Electron",
-                "dataTarget": "skillElectron"
+                "key": 15,
+                "skill": "Arduino",
+                "dataTarget": "skillArduino"
+            },
+            {
+                "key": 16,
+                "skill": "Webpack",
+                "dataTarget": "skillWebpack"
             },
             {
                 "key": 9,
@@ -129,127 +139,177 @@
             {
                 "key": 0,
                 "img": "asynchronism",
-                "active": "active"
+                "active": "active",
+                "type": "JavaScript",
+                "title": "Asynchronism"
             },
             {
                 "key": 1,
                 "img": "basicJS",
-                "active": ""
+                "active": "",
+                "type": "JavaScript",
+                "title": "Basic JavaScript"
             },
             {
                 "key": 2,
                 "img": "basicProgramming",
-                "active": ""
+                "active": "",
+                "type": "Html JavaScript Johnny-Five Arduino NodeJS",
+                "title": "Basic Programming"
             },
             {
                 "key": 3,
                 "img": "developingWebOnline",
-                "active": ""
+                "active": "",
+                "type": "Html Css",
+                "title": "Online Web development"
             },
             {
                 "key": 4,
                 "img": "ecmaScript",
-                "active": ""
+                "active": "",
+                "type": "JavaScript",
+                "title": "EcmaScript 6+"
             },
             {
                 "key": 5,
                 "img": "engineer",
-                "active": ""
+                "active": "",
+                "type": "Communication Good Practices",
+                "title": "software engineering basics"
             },
             {
                 "key": 6,
                 "img": "frontendDeveloper",
-                "active": ""
+                "active": "",
+                "type": "Css JavaScript",
+                "title": "Frontend developer"
             },
             {
                 "key": 7,
                 "img": "fundamentalJS",
-                "active": ""
+                "active": "",
+                "type": "JavaScript",
+                "title": "Fundamental Javascript"
             },
             {
                 "key": 8,
                 "img": "fundamentalsBd",
-                "active": ""
+                "active": "",
+                "type": "SQL & MySQL",
+                "title": "Fundamental Data Base"
             },
             {
                 "key": 9,
                 "img": "git",
-                "active": ""
+                "active": "",
+                "type": "Communication Git",
+                "title": "Git & Github"
             },
             {
                 "key": 10,
                 "img": "introductionWebDevelopment",
-                "active": ""
+                "active": "",
+                "type": "Html",
+                "title": "Introduction Web Development"
             },
             {
                 "key": 11,
                 "img": "javascriptProfessional",
-                "active": ""
+                "active": "",
+                "type": "JavaScript TypeScript",
+                "title": "Professional JavaScript"
             },
             {
                 "key": 12,
                 "img": "oop",
-                "active": ""
+                "active": "",
+                "type": "Good Practices",
+                "title": "Object Oriented Programming"
             },
             {
                 "key": 13,
                 "img": "preWork",
-                "active": ""
+                "active": "",
+                "type": "Good Practices",
+                "title": "PreWork"
             },
             {
                 "key": 14,
                 "img": "react",
-                "active": ""
+                "active": "",
+                "type": "React",
+                "title": "React"
             },
             {
                 "key": 15,
                 "img": "reactPractice",
-                "active": ""
+                "active": "",
+                "type": "React",
+                "title": "React.js"
             },
             {
                 "key": 16,
                 "img": "responsiveDesign",
-                "active": ""
+                "active": "",
+                "type": "Html Css",
+                "title": "Responsive Design"
             },
             {
                 "key": 17,
                 "img": "sqlMysql",
-                "active": ""
+                "active": "",
+                "type": "SQL & MySQL",
+                "title": "SQL & MySQL"
             },
             {
                 "key": 18,
                 "img": "terminal",
-                "active": ""
+                "active": "",
+                "type": "Good Practices",
+                "title": "Terminal"
             },
             {
                 "key": 19,
                 "img": "typescript",
-                "active": ""
+                "active": "",
+                "type": "TypeScript",
+                "title": "TypeScript"
             },
             {
                 "key": 20,
                 "img": "apiRest",
-                "active": ""
+                "active": "",
+                "type": "SQL & MySQL",
+                "title": "Api Rest"
             },
             {
                 "key": 21,
-                "img": "boostrap",
-                "active": ""
+                "img": "bootstrap",
+                "active": "",
+                "type": "Bootstrap",
+                "title": "Bootstrap"
             },
             {
                 "key": 22,
                 "img": "fundamentalNodeJS",
-                "active": ""
+                "active": "",
+                "type": "NodeJS",
+                "title": "Fundamental Node Js"
             },
             {
                 "key": 23,
                 "img": "scope",
-                "active": ""
+                "active": "",
+                "type": "Good Practices",
+                "title": "Closures and Scope in JavaScript"
             },
             {
                 "key": 24,
                 "img": "V8",
-                "active": ""
+                "active": "",
+                "type": "JavaScript",
+                "title": "JavaScript Engine (V8)"
             }
         ]
     }

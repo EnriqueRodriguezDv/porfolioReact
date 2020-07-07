@@ -162,7 +162,7 @@
                 "img": "developingWebOnline",
                 "active": "",
                 "type": "Html Css",
-                "title": "Online Web development"
+                "title": "Online Web Development"
             },
             {
                 "key": 4,
@@ -176,14 +176,14 @@
                 "img": "engineer",
                 "active": "",
                 "type": "Communication Good Practices",
-                "title": "software engineering basics"
+                "title": "Software Engineering Basics"
             },
             {
                 "key": 6,
                 "img": "frontendDeveloper",
                 "active": "",
                 "type": "Css JavaScript",
-                "title": "Frontend developer"
+                "title": "Frontend Developer"
             },
             {
                 "key": 7,

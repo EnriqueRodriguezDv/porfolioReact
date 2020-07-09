@@ -36,11 +36,11 @@
             },
             {
                 "key": 3,
-                "cardImgSrc": "bankLions",
-                "cardTitle": "Bank Lions",
-                "cardDescription": "In the Bank",
-                "cardLink": "",
-                "cardLinkTiTle": "click to bank",
+                "cardImgSrc": "simon",
+                "cardTitle": "Simon (Arduino)",
+                "cardDescription": "Simon on Arduino, project with Johnny-Five",
+                "cardLink": "https://github.com/EnriqueRodriguezDv/simon_arduino",
+                "cardLinkTiTle": "click to see in github",
                 "colorCard": "green",
                 "flexRow": "flex-row-reverse",
                 "offset": "offset-6"
@@ -51,88 +51,103 @@
                 "key": 0,
                 "skill": "Html",
                 "dataTarget": "skillHtml",
-                "description": "The base of all project on the Web (and almost outside), the importance of knowing the tags to improve work and avoid the sea of div is fundamental and more in react, my favorite framework"
+                "description": "The base of all project on the Web (and almost outside), the importance of knowing the tags to improve work and avoid the sea of div is fundamental and more in react, my favorite framework."
             },
             {
                 "key": 1,
                 "skill": "Css",
                 "dataTarget": "skillCss",
-                "description": "The style is very import, without him, it,s impossible a good web"
+                "description": "I find accessibility to applications of high importance because if users cannot find how to use it, what is it for? it does not matter if you have the best code if it is not accompanied by a responsive, simple and functional design."
             },
             {
                 "key": 2,
                 "skill": "Sass",
-                "dataTarget": "skillSass"
+                "dataTarget": "skillSass",
+                "description": "I love the organization achieved through the use of this framework, being able to achieve changes with little if you know how to use its variables and loops well."
             },
             {
                 "key": 3,
                 "skill": "Bootstrap",
-                "dataTarget": "skillBootstrap"
+                "dataTarget": "skillBootstrap",
+                "description": "Speed, is the best adjective for this, its use is not the most recommended for large-scale projects but for the rest, it saves a lot of time to invest and ... the time is gold!"
             },
             {
                 "key": 4,
                 "skill": "JavaScript",
-                "dataTarget": "skillJavaScript"
+                "dataTarget": "skillJavaScript",
+                "description": "My first language, I love the versatility it achieves thanks to its frameworks and libraries, a language that is increasingly taking hold and with a large community."
             },
             {
                 "key": 5,
                 "skill": "TypeScript",
-                "dataTarget": "skillTypeScript"
+                "dataTarget": "skillTypeScript",
+                "description": "The importance of typing in long-term projects is indisputable, it can solve big errors with a little effort on our part when using it and makes it easy for other developers to read the function of our code."
             },
             {
                 "key": 6,
                 "skill": "React",
-                "dataTarget": "skillReact"
+                "dataTarget": "skillReact",
+                "description": "The fusion of Html and JavaScript with superpowers !! I am in love with this framework, I love creating components that can be recycled by creating a smaller and more readable code, the Single Page with React Router and more, it is amazing."
             },
             {
                 "key": 7,
                 "skill": "NodeJS",
-                "dataTarget": "skillNodeJS"
+                "dataTarget": "skillNodeJS",
+                "description": "The real magic of JavaScript is here, being able to get it off the web and take it to a desktop, mobile, arduino, etc. \n The capacity of modules that gives you so much strength with frameworks and more, an essential tools to know."
             },
             {
                 "key": 8,
                 "skill": "Electron",
-                "dataTarget": "skillElectron"
+                "dataTarget": "skillElectron",
+                "description": "In seconds, being able to put the web as if it were a desktop app with very little code is incredible, it increases the possibilities of everything previously learned."
             },
             {
                 "key": 14,
                 "skill": "Johnny-Five",
-                "dataTarget": "skillJohnnyFive"
+                "dataTarget": "skillJohnnyFive",
+                "description": "It is a small hobby to drive arduino and make small electronic toys such as simon or an auto sprinkler car, for all this, johnny-five simplifies a lot and makes it more readable."
             },
             {
                 "key": 15,
                 "skill": "Arduino",
-                "dataTarget": "skillArduino"
+                "dataTarget": "skillArduino",
+                "description": "It's just a little hobby, mixed with Johnny-Five."
             },
             {
                 "key": 16,
                 "skill": "Webpack",
-                "dataTarget": "skillWebpack"
+                "dataTarget": "skillWebpack",
+                "description": "I need to manage the flow of my work in the best conditions, I like to be able to configure in the most stable and best way for development and production."
             },
             {
                 "key": 9,
                 "skill": "Git",
-                "dataTarget": "skillGit"
+                "dataTarget": "skillGit",
+                "description": "The need for remote work is increasingly necessary and this tool is excellent for working in groups thanks to the branches, seeing the logs made helps a lot to see the work of coworkers."
             },
             {
                 "key": 10,
                 "skill": "SQL & MySQL",
-                "dataTarget": "skillSQL"
+                "dataTarget": "skillSQL",
+                "description": "The most basic thing to know databases is to know their language, SQL."
             },
             {
                 "key": 11,
                 "skill": "Communication",
-                "dataTarget": "skillCommunication"
+                "dataTarget": "skillCommunication",
+                "description": "Communication is everything. Planning, organization, motivation and more, without it, not just a project, an entire company can disappear."
             },
             {
                 "key": 12,
                 "skill": "Good Practices",
-                "dataTarget": "skillGoodPractice"
+                "dataTarget": "skillGoodPractice",
+                "description": "The code can be something fun to read or a real hieroglyph, the difference is in the little things, in avoiding duplicate code, in the names of the variables, in how to use the names of the functions to explain themselves without comments, like Robert C. Martin says it well in his book Clean Code."
             },
             {
                 "key": 13,
                 "skill": "Languages",
-                "dataTarget": "skillLanguages"
+                "dataTarget": "skillLanguages",
+                "description": "My first language is Spanish natively, second English, medium high level and I understand Italian and Portuguese but I don't speak it much."
             }
         ],
         "courses": [

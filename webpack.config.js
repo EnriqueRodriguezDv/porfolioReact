@@ -1,9 +1,11 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const TersetJSPlugin = require("terser-webpack-plugin");
+const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
 module.exports = {
   entry: path.resolve(__dirname, "src/index.js"),
-  mode: "development",
+  mode: "production",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
@@ -12,6 +14,9 @@ module.exports = {
     open: true,
     host: "192.168.1.35",
     disableHostCheck: true,
+  },
+  optimization: {
+    minimizer: [new TersetJSPlugin(), new OptimizeCSSAssetsPlugin()],
   },
   module: {
     rules: [
@@ -30,6 +35,9 @@ module.exports = {
         use: [
           {
             loader: "file-loader",
+            options: {
+              outputPath: "images",
+            },
           },
         ],
       },
@@ -40,6 +48,7 @@ module.exports = {
             loader: "url-loader",
             options: {
               limit: 90000,
+              outputPath: "images",
             },
           },
         ],

@@ -129,7 +129,7 @@ const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
               break;
           }
 
-          // temporal function, remove went get the diploma and in active, item.active
+          // temporal function, remove went get the diploma and active, item.active
           let courseActive = null;
           const active = () => {
             if (dataTarget === "#firstCarousel" && item.key === 0) {

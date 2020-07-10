@@ -325,6 +325,13 @@
                 "active": "",
                 "type": "JavaScript",
                 "title": "JavaScript Engine (V8)"
+            },
+            {
+                "key": 25,
+                "img": "webpack",
+                "active": "",
+                "type": "Webpack",
+                "title": "Webpack"
             }
         ]
     }

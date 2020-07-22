@@ -30,6 +30,7 @@ import typescript from "../assets/static/diploma/typescript.svg";
 import V8 from "../assets/static/diploma/V8.svg";
 import webpack from "../assets/static/diploma/webpack.svg";
 import postman from "../assets/static/diploma/postman.svg";
+import npm from "../assets/static/diploma/npm.svg";
 import notFound from "../assets/static/not-found.jpg";
 
 const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
@@ -131,6 +132,9 @@ const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
               break;
             case "postman":
               img = postman;
+              break;
+            case "npm":
+              img = npm;
               break;
             default:
               img = notFound;

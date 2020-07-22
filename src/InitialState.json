@@ -114,12 +114,6 @@
                 "description": "It's just a little hobby, mixed with Johnny-Five."
             },
             {
-                "key": 16,
-                "skill": "Webpack",
-                "dataTarget": "skillWebpack",
-                "description": "I need to manage the flow of my work in the best conditions, I like to be able to configure in the most stable and best way for development and production."
-            },
-            {
                 "key": 9,
                 "skill": "Git",
                 "dataTarget": "skillGit",
@@ -336,7 +330,7 @@
                 "key": 25,
                 "img": "webpack",
                 "active": "",
-                "type": "Webpack",
+                "type": "React",
                 "title": "Webpack"
             },
             {
@@ -345,6 +339,13 @@
                 "active": "",
                 "type": "Postman",
                 "title": "Postman"
+            },
+            {
+                "key": 26,
+                "img": "npm",
+                "active": "",
+                "type": "NodeJS",
+                "title": "NPM"
             }
         ]
     }

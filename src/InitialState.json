@@ -132,6 +132,12 @@
                 "description": "The most basic thing to know databases is to know their language, SQL."
             },
             {
+                "key": 17,
+                "skill": "Postman",
+                "dataTarget": "skillPostman",
+                "description": "The best to test an api"
+            },
+            {
                 "key": 11,
                 "skill": "Communication",
                 "dataTarget": "skillCommunication",
@@ -332,6 +338,13 @@
                 "active": "",
                 "type": "Webpack",
                 "title": "Webpack"
+            },
+            {
+                "key": 26,
+                "img": "postman",
+                "active": "",
+                "type": "Postman",
+                "title": "Postman"
             }
         ]
     }

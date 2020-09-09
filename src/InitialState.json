@@ -341,11 +341,18 @@
                 "title": "Postman"
             },
             {
-                "key": 26,
+                "key": 27,
                 "img": "npm",
                 "active": "",
                 "type": "NodeJS",
                 "title": "NPM"
+            },
+            {
+                "key": 28,
+                "img": "redux",
+                "active": "",
+                "type": "React",
+                "title": "Redux"
             }
         ]
     }

@@ -353,6 +353,13 @@
                 "active": "",
                 "type": "React",
                 "title": "Redux"
+            },
+            {
+                "key": 29,
+                "img": "router",
+                "active": "",
+                "type": "React",
+                "title": "React Router"
             }
         ]
     }

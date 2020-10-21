@@ -44,6 +44,17 @@
                 "colorCard": "green",
                 "flexRow": "flex-row-reverse",
                 "offset": "offset-6"
+            },
+            {
+                "key": 4,
+                "cardImgSrc": "lion",
+                "cardTitle": "Fake Bank",
+                "cardDescription": "Project whit react, react router and redux ",
+                "cardLink": "https://enriquerodriguezdv.github.io/FakeBankLion/dist/#/",
+                "cardLinkTiTle": "click to play whit a fake money",
+                "colorCard": "blue",
+                "flexRow": "flex-row",
+                "offset": ""
             }
         ],
         "skillList": [

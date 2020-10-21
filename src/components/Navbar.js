@@ -1,12 +1,12 @@
 import React from 'react';
-import logoEnrique from '../assets/static/logoEnrique.png'
+import logoBasico from '../assets/static/logoBasico.png'
 import '../assets/style/components/navbar.scss'
 
 const Navbar = () => {
     return (
         <header>
             <nav className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-                <img src={logoEnrique}></img>
+                <img src={logoBasico}></img>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

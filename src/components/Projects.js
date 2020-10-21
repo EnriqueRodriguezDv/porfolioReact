@@ -7,6 +7,7 @@ import space from "../assets/static/space.png";
 import stone from "../assets/static/stone.png";
 import dyd from "../assets/static/dyd.png";
 import simon from "../assets/static/simon.jpg";
+import lion from "../assets/static/lion.jpg"
 import notFound from "../assets/static/not-found.jpg";
 
 import "../assets/style/components/project.scss";
@@ -31,6 +32,9 @@ const Projects = () => {
                 break;
               case "simon":
                 img = simon;
+                break;
+              case "lion":
+                img = lion;
                 break;
               default:
                 img = notFound;

@@ -12,7 +12,7 @@ module.exports = {
   },
   devServer: {
     open: true,
-    host: "192.168.1.35",
+    host: "192.168.100.2",
     disableHostCheck: true,
   },
   optimization: {

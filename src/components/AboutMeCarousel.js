@@ -34,6 +34,7 @@ import npm from "../assets/static/diploma/npm.svg";
 import redux from "../assets/static/diploma/redux.svg";
 import router from "../assets/static/diploma/reactRouter.svg";
 import routerRedux from "../assets/static/diploma/RouterRedux.svg";
+import nodeJs from "../assets/static/diploma/nodeJs.svg";
 import notFound from "../assets/static/not-found.jpg";
 
 const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
@@ -147,6 +148,9 @@ const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
               break;
             case "routerRedux":
               img = routerRedux;
+              break;
+            case "nodeJs":
+              img = nodeJs;
               break;
             default:
               img = notFound;

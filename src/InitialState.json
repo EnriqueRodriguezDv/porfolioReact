@@ -385,6 +385,13 @@
                 "active": "",
                 "type": "NodeJS",
                 "title": "Node.js"
+            },
+            {
+                "key": 32,
+                "img": "hapi",
+                "active": "",
+                "type": "NodeJS",
+                "title": "Hapi"
             }
         ]
     }

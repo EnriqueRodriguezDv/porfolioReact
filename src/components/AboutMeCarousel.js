@@ -37,6 +37,7 @@ import routerRedux from "../assets/static/diploma/RouterRedux.svg";
 import nodeJs from "../assets/static/diploma/nodeJs.svg";
 import hapi from "../assets/static/diploma/hapi.svg";
 import nodePractice from "../assets/static/diploma/nodePractice.svg";
+import functional from "../assets/static/diploma/funcional.svg";
 import notFound from "../assets/static/not-found.jpg";
 
 const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
@@ -159,6 +160,9 @@ const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
               break;
             case "nodePractice":
               img = nodePractice;
+              break;
+            case "functional":
+              img = functional;
               break;
             default:
               img = notFound;

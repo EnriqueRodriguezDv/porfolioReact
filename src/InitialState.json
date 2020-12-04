@@ -399,6 +399,13 @@
                 "active": "",
                 "type": "NodeJS",
                 "title": "Node Auth"
+            },
+            {
+                "key": 34,
+                "img": "functional",
+                "active": "",
+                "type": "Good Practices",
+                "title": "functional programming"
             }
         ]
     }

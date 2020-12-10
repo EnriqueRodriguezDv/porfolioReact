@@ -38,6 +38,7 @@ import nodeJs from "../assets/static/diploma/nodeJs.svg";
 import hapi from "../assets/static/diploma/hapi.svg";
 import nodePractice from "../assets/static/diploma/nodePractice.svg";
 import functional from "../assets/static/diploma/funcional.svg";
+import mongodb from "../assets/static/diploma/mongodb.svg";
 import notFound from "../assets/static/not-found.jpg";
 
 const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
@@ -163,6 +164,9 @@ const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
               break;
             case "functional":
               img = functional;
+              break;
+            case "mongodb":
+              img = mongodb;
               break;
             default:
               img = notFound;

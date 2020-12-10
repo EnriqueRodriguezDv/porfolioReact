@@ -406,6 +406,13 @@
                 "active": "",
                 "type": "Good Practices",
                 "title": "functional programming"
+            },
+            {
+                "key": 35,
+                "img": "mongodb",
+                "active": "",
+                "type": "Good Practices",
+                "title": "MongoDB"
             }
         ]
     }

@@ -413,6 +413,13 @@
                 "active": "",
                 "type": "Good Practices",
                 "title": "MongoDB"
+            },
+            {
+                "key": 36,
+                "img": "graphql",
+                "active": "",
+                "type": "Good Practices",
+                "title": "Graphql"
             }
         ]
     }

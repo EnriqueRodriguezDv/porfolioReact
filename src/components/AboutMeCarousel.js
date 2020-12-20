@@ -39,6 +39,7 @@ import hapi from "../assets/static/diploma/hapi.svg";
 import nodePractice from "../assets/static/diploma/nodePractice.svg";
 import functional from "../assets/static/diploma/funcional.svg";
 import mongodb from "../assets/static/diploma/mongodb.svg";
+import graphql from "../assets/static/diploma/graphql.svg";
 import notFound from "../assets/static/not-found.jpg";
 
 const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
@@ -167,6 +168,9 @@ const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
               break;
             case "mongodb":
               img = mongodb;
+              break;
+            case "graphql":
+              img = graphql;
               break;
             default:
               img = notFound;

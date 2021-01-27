@@ -40,6 +40,7 @@ import nodePractice from "../assets/static/diploma/nodePractice.svg";
 import functional from "../assets/static/diploma/funcional.svg";
 import mongodb from "../assets/static/diploma/mongodb.svg";
 import graphql from "../assets/static/diploma/graphql.svg";
+import express from "../assets/static/diploma/express.svg";
 import notFound from "../assets/static/not-found.jpg";
 
 const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
@@ -172,12 +173,15 @@ const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
             case "graphql":
               img = graphql;
               break;
+            case "express":
+              img = express;
+              break;
             default:
               img = notFound;
               break;
           }
 
-          // temporal function, remove went get the diploma and active, item.active
+          // temporal function, remove went active diploma, item.active
           let courseActive = null;
           const active = () => {
             if (dataTarget === "#firstCarousel" && item.key === 0) {

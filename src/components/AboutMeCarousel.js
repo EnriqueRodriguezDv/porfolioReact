@@ -42,6 +42,7 @@ import mongodb from "../assets/static/diploma/mongodb.svg";
 import graphql from "../assets/static/diploma/graphql.svg";
 import express from "../assets/static/diploma/express.svg";
 import backendNodejs from "../assets/static/diploma/backendNodejs.svg";
+import ssr from "../assets/static/diploma/ssr.svg";
 import notFound from "../assets/static/not-found.jpg";
 
 const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
@@ -179,6 +180,9 @@ const AboutMeCarousel = ({ dataTarget, dataTargetId }) => {
               break;
             case "backendNodejs":
               img = backendNodejs;
+              break;
+            case "ssr":
+              img = ssr;
               break;
             default:
               img = notFound;

@@ -441,6 +441,13 @@
                 "active": "",
                 "type": "NodeJS",
                 "title": "Server Side Render"
+            },
+            {
+                "key": 40,
+                "img": "next",
+                "active": "",
+                "type": "React",
+                "title": "Next.js"
             }
         ]
     }

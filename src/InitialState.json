@@ -55,6 +55,17 @@
                 "colorCard": "blue",
                 "flexRow": "flex-row",
                 "offset": ""
+            },
+            {
+                "key": 5,
+                "cardImgSrc": "nop",
+                "cardTitle": "Movies Fake",
+                "cardDescription": "Project whit Next.js and Mongo",
+                "cardLink": "https://fake-movies.vercel.app",
+                "cardLinkTiTle": "click and add a movie",
+                "colorCard": "red",
+                "flexRow": "flex-row-reverse",
+                "offset": ""
             }
         ],
         "skillList": [
